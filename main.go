@@ -32,11 +32,11 @@ type (
 
 	// Teamones Log日志格式
 	Log struct {
-		Level        string         `json:"level"` // 日志级别：notice,warning,error
-		Route        string         `json:"route"` // "请求地址", 可不传
-		RequestParam datatypes.JSON `json:"request_param"`
-		Record       string         `json:"record"`        // "日志内容"
-		BelongSystem string         `json:"belong_system"` // "请求参数" json对象，可不传
+		Level        string         `json:"level"`         // 日志级别：notice,warning,error
+		Route        string         `json:"route"`         // 请求地址, 可不传
+		RequestParam datatypes.JSON `json:"request_param"` // 请求参数 json对象，可不传
+		Record       string         `json:"record"`        // 日志内容
+		BelongSystem string         `json:"belong_system"` // 所属系统，获取端点配置
 	}
 
 	RequestParamJson struct {
