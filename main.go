@@ -1,0 +1,1 @@
+package logrus_log_hook
