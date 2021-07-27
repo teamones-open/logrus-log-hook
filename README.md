@@ -5,7 +5,7 @@ teamones log 服务上报 logrus hook
 
 go get github.com/teamones-open/logrus-log-hook
 
-## usage
+# usage
 ```go
 	hook := httphook.New(
 		"service-name",
